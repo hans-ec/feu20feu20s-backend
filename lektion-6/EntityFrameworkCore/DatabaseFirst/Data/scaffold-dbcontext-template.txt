@@ -1,0 +1,20 @@
+﻿Läs mer på: https://docs.microsoft.com/en-us/ef/core/managing-schemas/scaffolding?tabs=vs
+
+Scaffold-DbContext 
+	"ENTER_YOUR_CONNECTIONSTRING_HERE" 
+	Microsoft.EntityFrameworkCore.SqlServer 
+	-ContextDir Data 
+	-Context SqlContext 
+	-OutputDir Entities 
+	-DataAnnotation
+	-Force
+
+
+1. Hämta din connectionstring till din Sql databas. (Server Explorer -> Properties på databasen -> Kopiera Connection String)
+Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\EC\FEU20-FEU20S\backend\lektion-6\EntityFrameworkCore\DatabaseFirst\Data\ef_databasefirst_db.mdf;Integrated Security=True;Connect Timeout=30
+
+
+2. Skriv ihop din Scaffold-DbContext med mallen ovanför
+Scaffold-DbContext "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\EC\FEU20-FEU20S\backend\lektion-6\EntityFrameworkCore\DatabaseFirst\Data\ef_databasefirst_db.mdf;Integrated Security=True;Connect Timeout=30" Microsoft.EntityFrameworkCore.SqlServer -ContextDir Data -Context SqlContext -OutputDir Entities -Force
+
+3. Kör kommandot Scaffold-Dbcontext i Package Manager Console (Tools -> NuGet Package Manager -> Package Manager Console)
