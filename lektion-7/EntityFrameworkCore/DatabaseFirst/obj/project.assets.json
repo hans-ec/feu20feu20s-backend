@@ -7430,11 +7430,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EC\\FEU20-FEU20S\\backend\\lektion-6\\EntityFrameworkCore\\DatabaseFirst\\DatabaseFirst.csproj",
+      "projectUniqueName": "D:\\EC\\FEU20-FEU20S\\backend\\lektion-7\\EntityFrameworkCore\\DatabaseFirst\\DatabaseFirst.csproj",
       "projectName": "DatabaseFirst",
-      "projectPath": "D:\\EC\\FEU20-FEU20S\\backend\\lektion-6\\EntityFrameworkCore\\DatabaseFirst\\DatabaseFirst.csproj",
+      "projectPath": "D:\\EC\\FEU20-FEU20S\\backend\\lektion-7\\EntityFrameworkCore\\DatabaseFirst\\DatabaseFirst.csproj",
       "packagesPath": "C:\\Users\\HansMattin-Lassei\\.nuget\\packages\\",
-      "outputPath": "D:\\EC\\FEU20-FEU20S\\backend\\lektion-6\\EntityFrameworkCore\\DatabaseFirst\\obj\\",
+      "outputPath": "D:\\EC\\FEU20-FEU20S\\backend\\lektion-7\\EntityFrameworkCore\\DatabaseFirst\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

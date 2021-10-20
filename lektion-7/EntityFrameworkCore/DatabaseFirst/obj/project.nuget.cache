@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "orytzUr1np8bgJHcwS2Nf8p0U1xN4MNEWLg/tBcrWLnK4dkywBnnxPlvW6eIcthAIXg4DgyWVByGL4wVnu9Yig==",
+  "dgSpecHash": "5M12uTeaUoNC75LIA+QqEcrlaqj/tiDsmpZAcspPbPZStiRfbwNRn66tYgejfKoHCHjPxv3FHJKQkCMM/IBvfg==",
   "success": true,
-  "projectFilePath": "D:\\EC\\FEU20-FEU20S\\backend\\lektion-6\\EntityFrameworkCore\\DatabaseFirst\\DatabaseFirst.csproj",
+  "projectFilePath": "D:\\EC\\FEU20-FEU20S\\backend\\lektion-7\\EntityFrameworkCore\\DatabaseFirst\\DatabaseFirst.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HansMattin-Lassei\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\HansMattin-Lassei\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

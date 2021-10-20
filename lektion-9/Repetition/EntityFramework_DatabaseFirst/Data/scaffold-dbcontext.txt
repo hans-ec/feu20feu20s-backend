@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\EC\FEU20-FEU20S\backend\lektion-9\Repetition\EntityFramework_DatabaseFirst\Data\ef_database_first.mdf;Integrated Security=True;Connect Timeout=30" Microsoft.EntityFrameworkCore.SqlServer -Context EfDatabaseFirstContext -ContextDir Data -OutputDir Entities -force
