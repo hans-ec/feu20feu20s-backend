@@ -1,0 +1,20 @@
+﻿@page "/product/{id}"
+
+<div class="container mt-5">
+    <h3>ProductDetails</h3>
+    <p>@Item.Name</p>
+    <p>@Item.Description</p>
+</div>
+
+@code {
+    [Parameter]
+    public string Id { get; set; }
+
+    public Product Item { get; set; } = new();
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        Item = await Http.GetFromJsonAsync<Product>($"https://localhost:44350/api/Products/{Id}");
+    }
+}

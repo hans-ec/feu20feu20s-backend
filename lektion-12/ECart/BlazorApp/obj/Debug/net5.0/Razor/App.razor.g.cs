@@ -86,6 +86,13 @@ using SharedLibrary.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\BlazorApp\_Imports.razor"
+using System.Threading;
+
+#line default
+#line hidden
+#nullable disable
     public partial class App : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

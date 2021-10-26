@@ -89,6 +89,13 @@ using SharedLibrary.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\BlazorApp\_Imports.razor"
+using System.Threading;
+
+#line default
+#line hidden
+#nullable disable
     public partial class AddProductForm : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -105,6 +112,8 @@ using SharedLibrary.Models;
     {
         await Http.PostAsJsonAsync("https://localhost:44350/api/products", product);
         product = new();
+
+        StateHasChanged();
     }
 
 #line default

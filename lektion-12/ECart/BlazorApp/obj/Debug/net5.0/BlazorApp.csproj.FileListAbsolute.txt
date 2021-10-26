@@ -638,3 +638,7 @@ D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\BlazorApp\bin\Debug\net5.0\wwwroot\_
 D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\BlazorApp\bin\Debug\net5.0\wwwroot\_framework\SharedLibrary.dll
 D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\BlazorApp\bin\Debug\net5.0\wwwroot\_framework\SharedLibrary.pdb
 D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\BlazorApp\obj\Debug\net5.0\build-gz\DH8NnTIP.gz
+D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\BlazorApp\obj\Debug\net5.0\RazorDeclaration\Shared\ProductItem.razor.g.cs
+D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\BlazorApp\obj\Debug\net5.0\Razor\Shared\ProductItem.razor.g.cs
+D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\BlazorApp\obj\Debug\net5.0\RazorDeclaration\Pages\ProductDetails.razor.g.cs
+D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\BlazorApp\obj\Debug\net5.0\Razor\Pages\ProductDetails.razor.g.cs

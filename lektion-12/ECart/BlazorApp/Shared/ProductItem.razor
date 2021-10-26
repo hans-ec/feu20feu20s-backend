@@ -1,0 +1,21 @@
+﻿<NavLink href="@Href" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">@Item.Name</h5>
+    </div>
+    <p class="mb-1">@Item.Description</p>
+    <small>@Item.Id</small>
+</NavLink>
+
+
+@code {
+    [Parameter]
+    public Product Item { get; set; }
+    public string Href { get; set; }
+
+
+    protected override void OnInitialized()
+    {
+        Href = "product/" + Item.Id.ToString();
+    }
+
+}

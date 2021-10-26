@@ -89,6 +89,13 @@ using SharedLibrary.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\BlazorApp\_Imports.razor"
+using System.Threading;
+
+#line default
+#line hidden
+#nullable disable
     public partial class ProductList : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -96,6 +103,30 @@ using SharedLibrary.Models;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 24 "D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\BlazorApp\Shared\ProductList.razor"
+       
+    private Product[] products;
+
+    private async Task GetProductsAsync()
+    {
+        products = await Http.GetFromJsonAsync<Product[]>("https://localhost:44350/api/Products");
+    }
+
+    protected override void OnInitialized()
+    {
+        var timer = new Timer(new TimerCallback(_ => InvokeAsync(() => StateHasChanged())), null, 1000, 1000);
+    }
+
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await GetProductsAsync();
+    }
+
+#line default
+#line hidden
+#nullable disable
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
     }
 }
