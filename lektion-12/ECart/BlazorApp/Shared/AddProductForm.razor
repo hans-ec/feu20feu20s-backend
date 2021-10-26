@@ -1,0 +1,25 @@
+﻿<EditForm Model="@product" OnValidSubmit="@HandleValidSubmit">
+    <div class="mb-3">
+        <label for="description" class="form-label">Product Name</label>
+        <InputText id="name" class="form-control" @bind-Value="product.Name" />
+    </div>
+    <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <InputTextArea id="description" class="form-control" @bind-Value="product.Description" />
+    </div>
+    <div class="mb-5">
+        <button class="btn btn-secondary" type="submit">Add New Product</button>
+    </div>
+</EditForm>
+
+
+
+@code {
+    private Product product = new();
+
+    private async Task HandleValidSubmit()
+    {
+        await Http.PostAsJsonAsync("https://localhost:44350/api/products", product);
+        product = new();
+    }
+}

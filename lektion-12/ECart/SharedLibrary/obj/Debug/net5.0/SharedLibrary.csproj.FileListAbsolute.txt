@@ -1,0 +1,12 @@
+D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\SharedLibrary\bin\Debug\net5.0\SharedLibrary.deps.json
+D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\SharedLibrary\bin\Debug\net5.0\SharedLibrary.dll
+D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\SharedLibrary\bin\Debug\net5.0\ref\SharedLibrary.dll
+D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\SharedLibrary\bin\Debug\net5.0\SharedLibrary.pdb
+D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\SharedLibrary\obj\Debug\net5.0\SharedLibrary.csproj.AssemblyReference.cache
+D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\SharedLibrary\obj\Debug\net5.0\SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\SharedLibrary\obj\Debug\net5.0\SharedLibrary.AssemblyInfoInputs.cache
+D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\SharedLibrary\obj\Debug\net5.0\SharedLibrary.AssemblyInfo.cs
+D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\SharedLibrary\obj\Debug\net5.0\SharedLibrary.csproj.CoreCompileInputs.cache
+D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\SharedLibrary\obj\Debug\net5.0\SharedLibrary.dll
+D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\SharedLibrary\obj\Debug\net5.0\ref\SharedLibrary.dll
+D:\EC\FEU20-FEU20S\backend\lektion-12\ECart\SharedLibrary\obj\Debug\net5.0\SharedLibrary.pdb
