@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="feu20-webapi" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\EC\\FEU20-FEU20S\\backend\\lektion-13\\ManagementDemo\\WebApi\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

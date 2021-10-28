@@ -1,0 +1,34 @@
+﻿@model IEnumerable<AspNetMvc.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<div class="row row-cols-1 row-cols-md-4 g-4">
+    @foreach (var item in Model) {
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <p class="mb-1 text-muted"><small>@Html.DisplayFor(modelItem => item.SubCategory.Category.Name) > @Html.DisplayFor(modelItem => item.SubCategory.Name)</small></p>
+                    <img src="@Html.DisplayFor(modelItem => item.ImageUrl)" class="card-img-top" alt="">
+                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                    <p class="card-text my-1">@Html.DisplayFor(modelItem => item.Description)</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="text-danger price pt-2">@Html.DisplayFor(modelItem => item.Price):-</p>
+                        <button class="btn btn-outline-secondary">
+                            <i class="fas fa-shopping-cart me-2"></i>
+                            Beställ
+                        </button>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted"><i class="fas fa-box text-success me-2"></i> lagerstatus</small>
+                </div>
+            </div>
+        </div>
+    }
+</div>
