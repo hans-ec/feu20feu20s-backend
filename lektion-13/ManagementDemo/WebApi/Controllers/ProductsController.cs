@@ -46,12 +46,18 @@ namespace WebApi.Controllers
         // PUT: api/Products/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutProduct(int id, Product product)
+        public async Task<IActionResult> PutProduct(int id, ProductUpdateModel model)
         {
-            if (id != product.Id)
+            if (id != model.Id)
             {
                 return BadRequest();
             }
+
+            var product = await _context.Products.FindAsync(id);
+            product.Name = model.Name;
+            product.Description = model.Description;
+            product.Price = model.Price;
+            product.SubCategoryId = model.SubCategoryId;
 
             _context.Entry(product).State = EntityState.Modified;
 

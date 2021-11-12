@@ -1,0 +1,36 @@
+﻿@page "/signin"
+
+<div class="container d-flex justify-content-center align-items-center mt-5">
+    <div class="col-md-4">
+        <EditForm Model="@signInModel" OnSubmit="@OnSubmitAsync">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+            <div class="form-group mb-3">
+                <label class="control-label">Email</label>
+                <InputText @bind-Value="signInModel.Email" class="form-control" />
+                <ValidationMessage For="@(() => signInModel.Email)" class="text-danger" />
+            </div>
+            <div class="form-group mb-3">
+                <label class="control-label">Password</label>
+                <InputText @bind-Value="signInModel.Password" type="password" class="form-control" />
+                <ValidationMessage For="@(() => signInModel.Password)" class="text-danger" />
+            </div>
+            <div class="form-group d-grid">
+                <button type="submit" class="btn btn-primary">Sign In</button>
+            </div>
+
+        </EditForm>
+    </div>
+</div>
+
+@code {
+    private SignInModel signInModel = new();
+
+    private async Task OnSubmitAsync()
+    {
+        var response = await Http.PostAsJsonAsync("https://localhost:7193/api/authentication/signin", signInModel);
+        signInModel = new();
+        await sessionStorage.SetItemAsync("SessionToken", await response.Content.ReadAsStringAsync());
+        NavManager.NavigateTo("/users");        
+    }
+}

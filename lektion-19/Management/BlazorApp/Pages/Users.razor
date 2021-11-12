@@ -1,0 +1,43 @@
+﻿@page "/users"
+
+@if (!customers.Any()) 
+{ 
+    <div></div>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>UserId</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Email</th>
+                <th></th>
+            </tr>       
+        </thead>
+        <tbody>
+            @foreach(var user in customers)
+            {
+            <tr>
+                <th>@user.Id</th>
+                <th>@user.FirstName</th>
+                <th>@user.LastName</th>
+                <th>@user.Email</th>
+                <th>Edit | Details | Delete</th>
+            </tr>  
+            }     
+        </tbody>
+    </table>    
+}
+
+@code {
+    private List<UserModel> customers = new List<UserModel>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", await sessionStorage.GetItemAsync<string>("SessionToken"));
+        customers = await Http.GetFromJsonAsync<List<UserModel>>("https://localhost:7193/api/users");
+    }
+}
+

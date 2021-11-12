@@ -1,0 +1,12 @@
+D:\EC\FEU20-FEU20S\backend\lektion-19\Management\Repository\bin\Debug\net6.0\Repository.deps.json
+D:\EC\FEU20-FEU20S\backend\lektion-19\Management\Repository\bin\Debug\net6.0\Repository.dll
+D:\EC\FEU20-FEU20S\backend\lektion-19\Management\Repository\bin\Debug\net6.0\ref\Repository.dll
+D:\EC\FEU20-FEU20S\backend\lektion-19\Management\Repository\bin\Debug\net6.0\Repository.pdb
+D:\EC\FEU20-FEU20S\backend\lektion-19\Management\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+D:\EC\FEU20-FEU20S\backend\lektion-19\Management\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\EC\FEU20-FEU20S\backend\lektion-19\Management\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+D:\EC\FEU20-FEU20S\backend\lektion-19\Management\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+D:\EC\FEU20-FEU20S\backend\lektion-19\Management\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+D:\EC\FEU20-FEU20S\backend\lektion-19\Management\Repository\obj\Debug\net6.0\Repository.dll
+D:\EC\FEU20-FEU20S\backend\lektion-19\Management\Repository\obj\Debug\net6.0\ref\Repository.dll
+D:\EC\FEU20-FEU20S\backend\lektion-19\Management\Repository\obj\Debug\net6.0\Repository.pdb
